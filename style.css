@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.container {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    margin: 20px auto;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+li {
+    min-width: 320px;
+    width: 320px;
+    cursor: pointer;
+    transition: all .25s;
+    padding: 5px;
+}
+
+.details {
+    padding: 10px;
+}
+
+li:hover {
+    background-color: rgb(224, 224, 224);
+}
